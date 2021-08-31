@@ -1,0 +1,360 @@
+
+
+@media only screen and (min-width: 280px) {
+    .header-section {
+        padding: 30px 0px;
+    }
+    .header-item {
+        flex-direction: column;
+     
+    }
+    .header-item .header-menu ul {
+        display: flex;
+        flex-direction: column;
+    }
+    .header-item .header-logo ,
+    .header-item .header-menu,.header-item .header-button{
+        width: 100%;
+        text-align: center;
+    }
+
+    /* banner area */
+    .bannerSection {
+        padding: 80px 10px;
+       
+    }
+    .banner-item h1 {
+        font-size: 30px;
+    
+    }
+    .banner-button a.default-button {
+        font-size: 20px;
+        margin-right: 0px;
+        margin-left: 0;
+        margin-bottom:10px;
+    }
+    /* ===== rotna section ===== */
+    section.rotnaSection {
+        padding: 50px 10px;
+    }
+    .rotna-content .rotna-vedio {
+        width: 100%;
+    }
+    .rotna-content .rotna-vedio-content {
+        width: 100%;
+    }
+    .rotna-vedio-content h2 {
+        font-size: 25px;
+        line-height: 35px;
+        margin-bottom: 25px;
+        margin-top: 20px;
+  
+    }
+    .rotna-vedio-content h2::before {
+        content: "";
+        position: absolute;
+        width: 100px;
+        height: 2px;
+        background-color: #43C9FC;
+        bottom: -10px;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+    /* ===== card section ===== */
+    .cardSection {
+
+        padding: 50px 10px;
+    }
+    .card-title h1 {
+        font-size: 25px;
+    
+    }
+    .card-title p {
+        font-size: 15px;
+
+    }
+    .card-item-container .card-item {
+        width: 100%;
+        margin-right: 0;
+        margin-left: 0;
+        margin-bottom: 20px;
+    }
+    .card-icon {
+        width: 30%;
+      
+    }
+    .card-content {
+        width: 70%;
+    }
+   
+    /* ====== pricing table ===== */
+    .pricingSection {
+        padding: 50px 10px;
+    }
+    .pricing-content h1 {
+        font-size: 25px;
+      
+    }
+    .pricing-content p {
+        font-size: 15px;
+        padding: 10px 0px;
+        margin: 25px 0px;
+    }
+    .pricing-item {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+    /* ====== team section ====== */
+    .teamSection {
+        padding: 50px 10px;
+    }
+    .team-heading {
+      
+        margin-bottom: 50px;
+    }
+    .team-heading h2 {
+        padding: 10px 0px;
+
+        font-size: 25px;
+    }
+    .team-item .team-member {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 15px;
+        border: 1px solid #eee;
+        box-shadow: 5px 5px 10px rgb(238, 223, 223);
+    }
+    /* ====== subscribe section ====== */
+    .subscribeButton {
+        padding: 50px 10px;
+    }
+    .subscribe-content h1 {
+        font-size: 25px;
+        padding: 10px 0px;
+        margin: 10px 0px;
+    }
+    .subscribeBtn input[type="email"] {
+        width: 100%;
+        padding: 13px 10px;
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+    /* ====communication section ===== */
+    .communicationSection {
+        padding: 50px 10px;
+    }
+    .communication-content {
+        margin-bottom: 20px;
+    }
+    .communication-left {
+     
+        margin-right: 0px;
+        width: 100%;
+    }
+    .communication-left h1 {
+        margin: 0px 0px;
+        padding: 10px 0px;
+        font-size: 25px;
+     
+    }
+    .communication-right {
+        width: 100%;
+        margin-left: 0;
+    }
+    .communication-right p {
+        margin-top: 28px;
+        font-size: 14px;
+    }
+    .communication-item-left {
+        width: 100%;
+        margin-right: 0;
+        margin-left: 0;
+        margin-bottom: 15px;
+        border-radius: 5px;
+       
+    }
+    .communication-pic {
+        width: 100%;
+    }
+    .communication-pic img {
+        padding: 10px;
+        border-radius:10px;
+    }
+    .communication-pic-content {
+        width: 100%;
+        padding: 10px 5px;
+    }
+    .communication-pic-content h2 {
+        font-size: 25px;
+        padding: 10px 0px;
+        margin-top: 15px;
+    }
+    /* =====ABOUT SECTION ====== */
+    .aboutUsSection {
+       
+        background: #F7F9FF;
+        padding: 50PX 10PX;
+    }
+    .about-person {
+        width: 100%;
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+    .about-person-image {
+        width: 35%;
+        padding: 5px;
+    }
+    .about-person-image img {
+        height: 70px;
+        width: 70px;
+     
+    }
+    .about-person-image-content {
+        width: 55%;
+        padding: 0px 10px;
+        margin-top: 0px;
+    }
+    .about-person-content p {
+        padding: 20px;
+        font-size: 15px;
+        margin-bottom: 35px;
+        background: #fff;
+        border: 1px solid #eee;
+        box-shadow: 5px 5px 10px rgb(238 223 223);
+    }
+    .icon {
+    
+        bottom: -14px;
+        left: 84px;
+        width: 30px;
+        height: 30px;
+      
+    }
+
+    /* ====== FORM SECTION ====== */
+    .formSection {
+        padding: 40px 10px;
+    }
+    .mapSection {
+        width: 100%;
+        margin-right: 0px;
+    }
+    .form-right {
+        width: 100%;
+        margin-top: 15px;
+        margin-left: 0px;
+    }
+    .form {
+        width: 100%;
+    }
+    .contact-content h1 {
+        font-size: 25px;
+     
+    }
+    
+}
+
+
+@media only screen and (min-width: 577px) {
+    .rotna-content .rotna-vedio {
+        width: 48%;
+    }
+    .rotna-content .rotna-vedio-content {
+        width: 48%;
+    }
+    .rotna-vedio-content h2 {
+     margin: 0;
+     margin-bottom: 20px;
+    }
+    .rotna-vedio-content h2::before {
+    
+        width: 50px;
+        margin:20px 0px 0px 0px;
+     
+      
+    }
+    .card-item-container .card-item {
+        width: 50%;
+    }
+    .pricing-item {
+        width: 50%;
+    }
+    .team-item .team-member {
+        width: 46.99%;
+        margin: 10px;
+    }
+    .communication-pic {
+        width: 50%;
+    }
+    .communication-pic-content {
+        width: 50%;
+        padding: 10px 5px;
+    }
+    .about-person {
+        width: 46.99%;
+        margin-right: 0px;
+        margin-left: 0px;
+        margin: 10px;
+    }
+}
+
+
+
+@media only screen and (min-width: 992px) {
+    .header-item {
+        flex-direction: row;
+     
+    }
+    .header-item .header-menu ul {
+
+        flex-direction: row;
+    }
+    .header-item .header-logo, .header-item .header-menu, .header-item .header-button {
+        width: inherit;
+       
+    }
+    /* === card section ==== */
+    .card-item-container .card-item {
+        width: 33.33% !important;
+     
+    }
+    .pricing-item {
+        width: 33.33%;
+    }
+    .team-item .team-member {
+        width: 23%;
+        margin: 1%;
+    }
+    .subscribeBtn input[type="email"] {
+        width: 70%;
+   
+    }
+    .communication-item-left {
+        width: 49%;
+   
+    }
+    .communication-pic {
+        width: 50%;
+    }
+    .communication-pic-content {
+        width: 50%;
+      
+    }
+    .about-person {
+        width: 29.33%;
+        margin: 2%;
+        
+    }
+    .mapSection {
+        width: 48%;
+        margin-right: 0;
+    }
+    .form-right {
+        width: 48%;
+    
+    }
+}
