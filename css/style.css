@@ -1,0 +1,839 @@
+/* ============================================================
+======================= GLOBAL CSS START ======================
+============================================================== */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    line-height: 25px;
+}
+h1,h2,h3,h4,h5,h6,p{
+    padding: 0;
+    margin: 0;
+}
+.clear:after{
+    content: " ";
+    clear: both;
+    display: block;
+}
+.text-left{
+    text-align: left;
+}
+.text-right{
+    text-align: right;
+}
+.text-center{
+    text-align: center;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+ul li{
+    display: inline-block;
+}
+a{
+    text-decoration: none;
+    display: block;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+ .before::before {
+    content: "";
+    position: absolute;
+    width: 55px;
+    height: 2px;
+    background-color: #43C9FC;
+    bottom: -10px;
+    left: 0;
+}
+
+.midBefore::before {
+    content: "";
+    position: absolute;
+    bottom: -7px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 160px;
+    height: 2px;
+    background-color: #43C9FC;
+}
+
+/* ============================================================
+======================= GLOBAL CSS END ======================
+============================================================== */
+
+
+/* ============================================================
+  =================== HEADER AREA CSS START ==================
+============================================================== */
+
+
+.header-section {
+    background: #F7F9FF;
+    color:#000;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+}
+.header-item{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.header-item .header-logo{
+    width: 20%;
+}
+.header-item .header-logo h2 {
+    line-height: 44px;
+    padding: 0px 10px;
+    font-weight: 600;
+}
+.header-item .header-logo h2 span{
+   color: rgb(28, 59, 235);
+}
+.header-item .header-menu{
+  width: 65%;
+}
+.header-item .header-menu ul{
+   
+}
+.header-item .header-menu ul li{
+ 
+}
+
+.header-item .header-menu ul li a {
+    color: #000;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.header-item .header-menu ul li a:hover{
+    
+}
+.header-item .header-button{
+    width: 10%;
+
+}
+a.default-btn {
+    margin-top: 5px;
+    padding: 4px 15px;
+    border: 1px solid rgb(80, 70, 70);
+    border-radius: 5px;
+    display: inline-block;
+    color: #000;
+    font-size: 18px;
+    font-size: 600;
+}
+
+
+
+/* ============================================================
+======================= HEADER AREA CSS END ==================
+============================================================== */
+
+
+
+/* ============================================================
+======================= BANNER AREA CSS START ==================
+============================================================== */
+
+
+
+.bannerSection{
+    background: url(../image/mbr-4.jpg) no-repeat center center;
+    background-size: cover;
+    padding: 180px 0px;
+    position: relative;
+    z-index: 10;
+}
+.bannerSection::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.5);
+    z-index: -10;
+}
+.banner-item h4 {
+    font-size: 18px;
+    color: #fff;
+    font-weight: 500;
+}
+.banner-item h1 {
+    font-size: 36px;
+    color: #fff;
+    font-weight: 600;
+    margin: 24px 0px;
+}
+.banner-button a.default-button {
+    display: inline-block;
+    border: 1px solid #fff;
+    padding: 10px 42px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #000;
+    background: #fff;
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.banner-button a.default-button {
+font-size: 27px;
+color: #43C9FC !important;
+margin-right: 5px;
+}
+
+/* ============================================================
+======================= BANNER AREA CSS END ==================
+============================================================== */
+
+
+
+/* ============================================================
+======================= ROTNA AREA CSS START ==================
+============================================================== */
+section.rotnaSection {
+   background: #F7F9FF;
+    padding-top: 70px;
+}
+.rotna-content{
+    
+
+}
+.rotna-content .rotna-vedio {
+    width: 48%;
+}
+
+
+.rotna-vedio img {
+    max-width: 100%;
+}
+.rotna-content .rotna-vedio-content {
+    width: 48%;
+}
+.rotna-vedio-content h2 {
+    font-size: 40px;
+    line-height: 44px;
+    margin-bottom: 26px;
+    margin-top: -5px;
+    position: relative;
+}
+.rotna-vedio-content p {
+    font-size: 14px;
+    color: #222;
+}
+/* ============================================================
+======================= ROTNA AREA CSS END ==================
+============================================================== */
+
+
+
+/* ============================================================
+======================= CARD AREA CSS START ==================
+============================================================== */
+
+
+
+.cardSection{
+    padding-top:70px ;
+    margin-bottom:70px ;
+}
+.card-title {
+    margin-bottom: 40px;
+}
+.card-title h1 {
+    font-size: 45px;
+    position: relative;
+    padding: 15px 10px;
+    margin-bottom: 20px;
+}
+
+.card-title p {
+    font-size: 20px;
+    font-weight: 500;
+}
+.card-item-container{
+
+}
+.card-item-container .card-item{
+    width: 31.33%;
+    padding: 10px;
+    border: 1px solid rgb(236, 234, 234);
+    box-shadow: 5px 5px 10px rgb(238, 223, 223);
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+.card-item-container .card-item h4{
+
+}
+.card-item-container .card-item p{
+
+}
+.card-item{
+    position: relative;
+    overflow: hidden;
+}
+.card-item h1{
+ position: absolute;
+ /* top: 50%;
+ left: 50%;
+ transform: translate(-50% ,-50%)
+ visibility: hidden;
+ opacity: 0; */
+ top: 50%;
+ left: 30%;
+ transform:  scale(0);
+ transition-delay: .5s;
+ transition: 1s;
+ opacity:0;
+ 
+}
+.card-item:hover h1{
+    visibility: visible;
+    opacity: 1;
+    z-index:1;
+    transform: scale(1.5);
+    opacity:1;
+
+}
+.card-item::after{
+    content: "";
+    position: absolute;
+    left:-100%;
+    top: 0;
+    width: 100%;
+    height: 50%;
+    background:#43C9FC ;
+
+    transition: .5s;
+  
+    visibility: hidden;
+}
+.card-item:hover:after{
+   visibility: visible;
+    left:0;
+
+ 
+}
+.card-item::before{
+    content: "";
+    position: absolute;
+    right:-100%;
+    bottom: 0;
+    width: 100%;
+    height: 50%;
+    background:#43C9FC ;
+    
+    transition: .5s;
+ 
+    visibility: hidden;
+}
+.card-item:hover:before{
+   visibility: visible;
+    right:0;
+ 
+}
+
+
+
+
+.card-icon{
+    width: 20%;
+    height: 200px;
+}
+.card-icon i {
+    font-size: 35px;
+    padding: 5px 10px;
+    color: #43C9FC;
+}
+.card-content{
+    width: 70%;
+}
+
+
+
+/* ============================================================
+======================= CARD AREA CSS END ==================
+============================================================== */
+
+
+/* ============================================================
+======================= PRICING AREA CSS START ==================
+============================================================== */
+
+.pricingSection{
+    background: #F7F9FF;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.pricing-content{
+
+}
+.pricing-content h1{
+    font-size: 45px;
+    padding: 14px 0px;
+   position: relative;
+}
+.pricing-content p {
+    font-size: 25px;
+    padding: 10px 0px;
+    margin: 25px 0px;
+}
+.pricing-item {
+    width: 31.33%;
+    border: 1px solid rgb(236, 234, 234);
+    box-shadow: 5px 5px 10px rgb(238, 223, 223);
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.pricing-item-top {
+    padding: 14px;
+    border-bottom: 2px solid #eee;
+    /* border-radius: 10px 0px 0px 0px ; */
+    position: relative;
+    z-index: 10;
+    transition: .5s;
+}
+.pricing-item-top::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    /* background: rgba(88, 76, 158, 0.5); */
+    z-index: -10;
+    transition: .5s;
+}
+.pricing-item-top:hover::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #43C9FC;
+    opacity: .4;
+}
+.pricing-item-top h4{
+    font-size: 17px;
+}
+.pricing-item-top h1 {
+    font-size: 31px;
+    margin: 14px 0px;
+}
+.pricing-item-top h6 {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.pricing-item-top p {
+    font-size: 14px;
+    margin: 8px 0px;
+}
+.pricing-item-bottom {
+    padding: 14px;
+    padding-bottom: 30px;
+}
+.pricing-item-bottom ul {
+    line-height: 32px;
+}
+.pricing-item-bottom ul li{
+    display: block;
+}
+.pricing-item-bottom ul li i{
+    padding: 10px;
+    font-size: 22px;
+    margin-right: 10px;
+    color: #43C9FC;
+}
+
+.pricing-button {
+    width: 95%;
+    margin: auto;
+    border: 1px solid #eee;
+    box-shadow: 5px 5px 10px rgb(238, 223, 223);
+    padding: 13px 0px;
+    border-radius: 5px;
+    transition: .5s;
+ 
+}
+.pricing-button a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    color: #222;
+   
+}
+
+
+.pricing-button:hover {
+    background:#43C9FC;
+   color: #222;
+  
+}
+/* ============================================================
+======================= PRICING AREA CSS END ==================
+============================================================== */
+
+
+/* ============================================================
+======================= TEAM AREA CSS SATRT ==================
+============================================================== */
+.teamSection{
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.team-heading {
+    padding: 50px 0px;
+}
+.team-heading h2 {
+    padding: 10px 0px;
+    position: relative;
+    font-size: 35px;
+    font-weight: 700;
+}
+.team-item{
+  
+}
+
+.team-item .team-member {
+    width: 23.33%;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 1px solid #eee;
+    box-shadow: 5px 5px 10px rgb(238, 223, 223);
+}
+.team-item .team-member .team-member-image{
+    max-width: 100%;
+}
+.team-item .team-member .team-member-image img{
+    max-width: 100%;
+}
+.team-member .team-content {
+    padding: 8px 12px;
+}
+.team-member .team-content h1 {
+    font-size: 25px;
+    color: #333;
+  
+    margin-bottom: 12px;
+}
+.team-member .team-content p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #222;
+    margin-bottom: 10px;
+}
+/* ============================================================
+======================= TEAM AREA CSS END ==================
+============================================================== */
+
+/* ============================================================
+======================= SUBSCRIBE AREA CSS START ==================
+============================================================== */
+
+.subscribeButton {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: #F7F9FF;
+}
+.subscribe-content{
+
+}
+.subscribe-content h4{
+    font-size: 20px;
+    font-weight: 400;
+}
+.subscribe-content h1 {
+    font-size: 45px;
+    padding: 10px 0px;
+    margin: 30px 0px;
+}
+.subscribeBtn{
+
+}
+.subscribeBtn input[type="email"] {
+    padding: 16px 20px;
+    border-radius: 5px;
+    border: 1px solid #eee;
+    box-shadow: 5px 5px 10px rgb(238 223 223);
+    font-size: 20px;
+    margin-right: 10px;
+}
+input[type="button"] {
+    padding: 14px 20px;
+    font-size: 23px;
+    color: #fff;
+    font-weight: 600;
+    margin-left: 10px;
+    background:#43C9FC;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgb(238 223 223);
+    transition: .5s;
+}
+input[type="button"]:hover{
+    background: #fff;
+    color: #222;
+}
+
+
+/* ============================================================
+======================= SUBSCRIBE AREA CSS END ==================
+============================================================== */
+
+/* ============================================================
+================ COMMUNICATION AREA CSS START ================
+============================================================== */
+.communicationSection{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.communication-content{
+   
+}
+.communication-left{
+    width: 458;
+    margin-right: 10px;
+}
+.communication-left h1 {
+    margin: 60px 0px;
+    padding: 20px 0px;
+    font-size: 35px;
+    position: relative;
+}
+.communication-right{
+    width: 48%;
+    margin-left: 10px;
+}
+.communication-right p {
+    margin-top: 35px;
+    font-size: 18px;
+}
+.communication-item{
+
+}
+.communication-item-left{
+    width: 48%;
+    margin-right: 10px;
+    margin-left: 10px;
+    border: 1px solid #eee;
+    
+    box-shadow: 5px 5px 10px rgb(238 223 223);
+}
+.communication-pic{
+    width: 50%;
+}
+.communication-pic img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border: 1px s0lid #222;
+    border-radius: 10px 0px 0px 10px;
+}
+.communication-pic-content {
+    width: 50%;
+    padding: 0px 16px;
+}
+.communication-pic-content h2 {
+    font-size: 30px;
+    padding: 10px 0px;
+    margin-top: 25px;
+}
+.communication-pic-content p {
+    margin-top: 20px;
+    font-size: 15px;
+}
+/* ============================================================
+================ COMMUNICATION AREA CSS END ================
+============================================================== */
+
+
+/* ============================================================
+================ ABOUT US AREA CSS START ================
+============================================================== */
+.aboutUsSection{
+    padding-bottom: 50px;
+    padding-top: 50px;
+    background: #F7F9FF;
+}
+.about-content{
+
+}
+.about-content p {
+    padding: 10px 0px;
+    font-size: 18px;
+}
+.about-content h1 {
+    font-size: 26px;
+    padding: 10px 0px;
+    margin-bottom: 35px;
+    position: relative;
+}
+.about-person{
+    width: 31.60%;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.about-person-content{
+    position: relative;
+ 
+}
+.icon {
+    position: absolute;
+    bottom: -23px;
+    left: 110px;
+    width: 50px;
+    height: 50px;
+    background: #fff;
+    transform: rotate(134deg);
+  
+
+}
+.about-person-content i {
+    display: inline-block;
+    font-size: 50px;
+    color: #eee;
+    position: absolute;
+    top: 35px;
+    left: 30px;
+    opacity: .6;
+    
+}
+.about-person-content p {
+   
+    padding: 50px;
+    font-size: 20px;
+    margin-bottom: 35px;
+    background: #fff;
+    border: 1px solid #eee;
+    
+    box-shadow: 5px 5px 10px rgb(238 223 223);
+}
+.about-person-pic{
+
+}
+.about-person-image {
+    width: 40%;
+    padding: 10px;
+}
+
+.about-person-image img {
+    max-width: 100%;
+    display: block;
+    height: 110px;
+    width: 110px;
+    float: right;
+    border-radius: 50%;
+}
+.about-person-image-content {
+    width: 50%;
+    padding: 0px 10px;
+    margin-top: 50px;
+}
+
+.about-person-image-content h1 {
+    padding: 10px 0px;
+}
+.about-person-image-content p{
+
+}
+/* ============================================================
+================ ABOUT US AREA CSS END ================
+============================================================== */
+
+
+/* ============================================================
+================ FORM SECTION AREA CSS START ================
+============================================================== */
+.formSection{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.mapSection{
+    width: 48%;
+    margin-right: 10px;
+}
+.contact-content h1 {
+    font-size: 30px;
+    font-weight: 600;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.form-right{
+    width: 48%;
+    margin-left: 10px;
+}
+.form{
+    width: 70%;
+}
+.form input[type="email"],
+ .form input[type="text"],
+  .form input[type="phone"],
+   textarea {
+    display: block;
+    padding: 0px 10px;
+    height: 50px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    outline: none;
+    width: 100%;
+    margin-top: 14px;
+}
+.form textarea{
+    height: 100px;
+}
+.form input[type="button"] {
+    padding: 14px 20px;
+    margin-left: 0px;
+    margin-top: 14px;
+    display: block;
+    width: 50%;
+}
+/* ============================================================
+================ FORM SECTION AREA CSS END ================
+============================================================== */
+
+
+/* FOOTER AREA START */
+
+.footerSection {
+    background: #272a33;
+    color: #fff;;
+    padding: 20px 0px;
+}
+.footer-item {
+
+}
+.footer-item span {
+    padding: 0px 0px;
+    font-size: 23px;
+    margin-right: 4px;
+}
+
+
